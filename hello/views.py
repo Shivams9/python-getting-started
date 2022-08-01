@@ -12,6 +12,10 @@ def test(request):
     # return HttpResponse('Hello from Python!')
     return render(request, "test.html")
 
+def medicine(request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "medicine.html")
+
 def db(request):
 
     greeting = Greeting()
