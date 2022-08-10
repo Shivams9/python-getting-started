@@ -20,4 +20,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("test/", hello.views.test,  name = "test"),
     path("medicine/", hello.views.medicine,  name = "medicine"),
+    path("search/",hello.views.search, ),
 ]
